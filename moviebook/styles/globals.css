@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Custom styles */
+.movie-card:hover {
+  @apply shadow-2xl;
+}
+
+.dark-mode {
+  @apply bg-gray-900 text-white;
+}
